@@ -1,0 +1,15 @@
+{
+  "name": "simple",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "babel index.js --out-file index.babel.js && node index.babel.js && rm index.babel.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-import": "workspace:*"
+  }
+}

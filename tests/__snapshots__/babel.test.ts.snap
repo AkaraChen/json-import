@@ -1,0 +1,8 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`babel 1`] = `
+""use strict";
+
+var _jsonImport = require("json-import");
+var json = (0, _jsonImport.createProxy)("./test.json");"
+`;
